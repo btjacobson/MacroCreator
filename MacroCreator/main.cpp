@@ -209,7 +209,7 @@ void DrawCircle(long x, long y, float r, Macro* macro)
 		x2 = x + r * cos(theta);
 		y2 = y + r * sin(theta);
 		theta += angleStep;
-		r -= 0.01;
+		r -= 0.10;
 
 		SetCursorPos(x2, y2);
 		Sleep(macro->SleepTime / 1000);
